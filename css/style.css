@@ -1,0 +1,127 @@
+body {
+  background-color:#fafafa;
+  font-family: 'Public Sans', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Public Sans', sans-serif;
+
+}
+
+
+
+
+.title-head {
+  background-color: #fff;
+  padding : 1% 7%;
+  position: relative;
+  z-index: 2;
+}
+
+.title-main {
+  background-color: #fafafa;
+  text-align:left;
+  padding : 1% 7%;
+}
+
+.title-main-text {
+  text-align: left;
+  padding: 15% 10% 0% 15%;
+}
+
+.title-text{
+  font-size:3.5rem;
+  color:#292c4d;
+}
+.title-text2{
+  font-size:1rem;
+  color:#9a999e;
+  line-height:1.8;
+}
+
+
+
+.btn-design {
+  background-image: linear-gradient(to right, #29d46e 0%, #2fc49a 51%, #28bbcf 100%);
+  border-style: none;
+  border-radius: 30px;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.phone-bg {
+  width:100%;
+  position: absolute;
+  right:0;
+}
+
+.phone-img {
+  width:100%;
+  position: relative;
+  left:181px;
+  bottom: 70px;
+  z-index: 1;
+}
+
+
+.nav-item {
+  padding:0 12px;
+}
+
+.navbar-toggler-div {
+  position: absolute;
+  right:0px;
+
+}
+
+.navbar-div {
+  padding-left: 250px;
+}
+
+
+#feature {
+  background-color: #f4f5f7;
+  padding : 1% 7%;
+  position: relative;
+  bottom:0px;
+  z-index: 3;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (max-width:1440px) {
+  .request-btn {
+    visibility: hidden;
+  }
+ .title-main-text {
+   text-align: center;
+
+ }
+ .title-main-img {
+   text-align: center;
+ }
+
+}
+
+@media (max-width:375px) {
+  .request-btn {
+    visibility: hidden;
+  }
+ .title-main-text {
+   position: fixed;
+   top:300px;
+   text-align: center;
+ }
+ .title-main-img {
+   position: absolute;
+   bottom:200px;
+   text-align: center;
+ }
+
+}
