@@ -35,9 +35,9 @@ h1,h2,h3,h4,h5,h6 {
   color:#292c4d;
 }
 .title-text2{
-  font-size:1rem;
+  font-size:1.2rem;
   color:#9a999e;
-  line-height:1.8;
+  line-height:1.4;
 }
 
 
@@ -83,12 +83,31 @@ h1,h2,h3,h4,h5,h6 {
 
 #feature {
   background-color: #f4f5f7;
-  padding : 1% 7%;
+  padding : 7% 7%;
   position: relative;
-  bottom:0px;
+  bottom:200px;
   z-index: 3;
 }
 
+.features-white {
+  padding:5% 0%;
+}
+
+.feature-box {
+  padding:3% 2%;
+}
+
+.teatures-title {
+  margin-top:35px;
+}
+
+
+#Latest {
+  background-color: #fff;
+  padding : 7% 7%;
+  position: relative;
+  bottom:250px;
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
