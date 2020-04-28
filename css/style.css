@@ -10,11 +10,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
-
-
 .title-head {
   background-color: #fff;
-  padding : 1% 7%;
+  margin: 15px auto 15px auto;
+  padding: 0% 3%;
   position: relative;
   z-index: 2;
 }
@@ -22,22 +21,25 @@ h1,h2,h3,h4,h5,h6 {
 .title-main {
   background-color: #fafafa;
   text-align:left;
-  padding : 1% 7%;
+  padding:0% 3% 7% 3%;
 }
 
 .title-main-text {
   text-align: left;
-  padding: 15% 10% 0% 15%;
+  padding: 10% 10%;
 }
+
 
 .title-text{
   font-size:3.5rem;
   color:#292c4d;
 }
+
 .title-text2{
   font-size:1.2rem;
   color:#9a999e;
   line-height:1.4;
+  padding-bottom: 20px;
 }
 
 
@@ -53,16 +55,12 @@ h1,h2,h3,h4,h5,h6 {
 
 .phone-bg {
   width:100%;
-  position: absolute;
-  right:0;
 }
 
 .phone-img {
-  width:100%;
-  position: relative;
-  left:181px;
-  bottom: 70px;
-  z-index: 1;
+  width:95%;
+  position : absolute;
+  top:0px;
 }
 
 
@@ -83,18 +81,13 @@ h1,h2,h3,h4,h5,h6 {
 
 #feature {
   background-color: #f4f5f7;
-  padding : 7% 7%;
-  position: relative;
-  bottom:200px;
-  z-index: 3;
-}
-
-.features-white {
-  padding:5% 0%;
+  margin: 0px auto 0px auto;
+  padding: 10% 5% 3% 5%;
 }
 
 .feature-box {
-  padding:3% 2%;
+  padding: 55px 0px;
+  text-align: center;
 }
 
 .teatures-title {
@@ -103,10 +96,64 @@ h1,h2,h3,h4,h5,h6 {
 
 
 #Latest {
-  background-color: #fff;
-  padding : 7% 7%;
-  position: relative;
-  bottom:250px;
+  background-color: #fafafa;
+  padding: 4% 5%;
+}
+
+.Latest-box {
+  padding: 25px 0px;
+  text-align: center;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.text-small {
+  font-size:11px;
+  color:#a7a7a9;
+}
+
+.card-text {
+  color:#959597;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
+#footer {
+  background-color: #2d314e;
+  padding: 3% 0%;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.bottom-icon {
+  color:#fff;
+  padding:7% 2%;
+}
+
+
+
+.bottom_menu {
+  color:#d5d9f6;
+  font-size:14px;
+  padding-top: 30px;
+}
+
+
+.footer-text {
+  color:#9395ac;
+  font-size:13px;
+  padding:7% 2%;
 }
 
 
@@ -118,29 +165,23 @@ h1,h2,h3,h4,h5,h6 {
   .request-btn {
     visibility: hidden;
   }
- .title-main-text {
-   text-align: center;
-
- }
- .title-main-img {
-   text-align: center;
- }
-
 }
 
+
+
 @media (max-width:375px) {
+
   .request-btn {
     visibility: hidden;
   }
+
  .title-main-text {
-   position: fixed;
-   top:300px;
    text-align: center;
  }
- .title-main-img {
-   position: absolute;
-   bottom:200px;
-   text-align: center;
+ .phone-img {
+   width:70%;
  }
+
+
 
 }
